@@ -1,0 +1,49 @@
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+  grid-auto-rows: repeat(8, 1fr);
+}
+.productCount {
+  grid-column: 1;
+  grid-row: 1;
+}
+.sortBy {
+  grid-column: 9;
+  grid-row: 1;
+}
+.brandsCheckBoxes {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.product-grid {
+  grid-column: 2 / 10;
+  grid-row: 2 / 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 175px;
+  margin: 30px;
+  border: 1px solid #090000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(-45deg, #9652ee, #5b3ce7, #23a6d5, #b123d5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
