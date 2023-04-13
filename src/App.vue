@@ -29,6 +29,11 @@ export default {
   color: #606569;
 }
 
+h1 {
+  font-size: 100px;
+  justify: center
+}
+
 .link {
   color: #3a7f71;
 }
