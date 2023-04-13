@@ -31,7 +31,8 @@ export default {
 
 h1 {
   font-size: 100px;
-  justify: center
+  justify: center;
+  color: #9652ee
 }
 
 .link {
